@@ -2,7 +2,6 @@ const fs = require('fs');
 const TelegramBot = require('node-telegram-bot-api');
 
 // Replace YOUR_BOT_TOKEN_HERE with the token you received from BotFather
-const token = '7273683357:AAGP38q56roXdPJYuG4N9sEWGVuxdFkL0qc';
 const bot = new TelegramBot(token, { polling: true });
 
 const warningsFilePath = 'warnings.json';
